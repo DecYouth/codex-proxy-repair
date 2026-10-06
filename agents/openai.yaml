@@ -1,0 +1,4 @@
+interface:
+  display_name: "Codex 代理连接修复"
+  short_description: "检测正在运行的代理，交叉验证并修复 Codex 首次请求重连问题"
+  default_prompt: "使用 $codex-proxy-repair 检查我的 Codex 首次请求重连问题；代理软件已在运行，请自动识别，必要时再向我确认。"

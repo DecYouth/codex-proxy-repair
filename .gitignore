@@ -1,0 +1,17 @@
+# Local credentials, proxy configuration and diagnostic data
+.env
+.env.*
+auth.json
+*.log
+*.tmp
+*.bak
+*-smoke.json
+# Disposable test output and local compiler artifacts
+tests/fixtures-*/
+tests/connection-fixtures-*/
+*.exe
+*.dll
+*.pdb
+__pycache__/
+.DS_Store
+Thumbs.db
